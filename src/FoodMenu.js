@@ -20,7 +20,7 @@ export default class FoodMenu extends React.Component{
     }
     ChangeClick = (index) => {
         this.setState({index})
-        this.scroll.scrollTo({x: index * screenWidth, y: index * screenWidth, animated: true})
+        this.scroll.scrollTo({x:0 , y: index * screenWidth, animated: true})
     }
     render(){
         return(
